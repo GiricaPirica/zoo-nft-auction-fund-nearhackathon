@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(
+        'https://images.nationalgeographic.org/image/upload/v1638892272/EducationHub/photos/open-pit-copper-mine.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.content {
+    background-color: rgba(2, 68, 68, 0.7); /* Mint color with transparency */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5em;
+}
+p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+a:link {
+    color: rgb(45, 218, 186); 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(101, 226, 34);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
